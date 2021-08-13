@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:id="@+id/listaEstados"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/id_Aguascalientes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/descriptor"
+                android:onClick="despliegaInfo"
+                app:srcCompat="@drawable/aguascaliente" />
+
+            <ImageButton
+                android:id="@+id/id_BajaCalifornia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/purple_200"
+                android:contentDescription="@string/descriptor"
+                android:onClick="despliegaInfo"
+                app:srcCompat="@drawable/bajacalifornia" />
+
+            <ImageButton
+                android:id="@+id/id_BajaCaliforniaSur"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/descriptor"
+                android:onClick="despliegaInfo"
+                app:srcCompat="@drawable/bajacaliforniasur" />
+
+            <ImageButton
+                android:id="@+id/id_Campeche"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/purple_200"
+                android:contentDescription="@string/descriptor"
+                android:onClick="despliegaInfo"
+                app:srcCompat="@drawable/campeche" />
+
+            <ImageButton
+                android:id="@+id/id_Chiapas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/descriptor"
+                android:onClick="despliegaInfo"
+                app:srcCompat="@drawable/chiapas" />
+
+            <ImageButton
+                android:id="@+id/id_Chihuahua"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/purple_200"
+                android:contentDescription="@string/descriptor"
+                android:onClick="despliegaInfo"
+                app:srcCompat="@drawable/chihuahua" />
+
+            <ImageButton
+                android:id="@+id/id_CiudadDeMexico"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/descriptor"
+                android:onClick="despliegaInfo"
+                app:srcCompat="@drawable/ciudadmexico" />
+
+            <ImageButton
+                android:id="@+id/id_Coahuila"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/purple_200"
+                android:contentDescription="@string/descriptor"
+                android:onClick="despliegaInfo"
+                app:srcCompat="@drawable/coahuila" />
+
+            <ImageButton
+                android:id="@+id/id_Colima"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/descriptor"
+                android:onClick="despliegaInfo"
+                app:srcCompat="@drawable/colima" />
+
+            <ImageButton
+                android:id="@+id/id_Durango"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/purple_200"
+                android:contentDescription="@string/descriptor"
+                android:onClick="despliegaInfo"
+                app:srcCompat="@drawable/durango" />
+
+            <ImageButton
+                android:id="@+id/id_EstadoDeMexico"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/descriptor"
+                android:onClick="despliegaInfo"
+                app:srcCompat="@drawable/estadomexico" />
+
+            <ImageButton
+                android:id="@+id/id_Guanajuato"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/purple_200"
+                android:contentDescription="@string/descriptor"
+                android:onClick="despliegaInfo"
+                app:srcCompat="@drawable/guanajuato" />
+
+            <ImageButton
+                android:id="@+id/id_Gerrero"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/descriptor"
+                android:onClick="despliegaInfo"
+                app:srcCompat="@drawable/guerrero" />
+
+            <ImageButton
+                android:id="@+id/id_Hidalgo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/purple_200"
+                android:contentDescription="@string/descriptor"
+                android:onClick="despliegaInfo"
+                app:srcCompat="@drawable/hidalgo" />
+
+            <ImageButton
+                android:id="@+id/id_jalisco"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/descriptor"
+                android:onClick="despliegaInfo"
+                app:srcCompat="@drawable/jalisco" />
+
+            <ImageButton
+                android:id="@+id/id_Michoacan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/purple_200"
+                android:contentDescription="@string/descriptor"
+                android:onClick="despliegaInfo"
+                app:srcCompat="@drawable/michoacan" />
+
+            <ImageButton
+                android:id="@+id/id_Morelos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/descriptor"
+                android:onClick="despliegaInfo"
+                app:srcCompat="@drawable/morelos" />
+
+            <ImageButton
+                android:id="@+id/id_Nayarit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/purple_200"
+                android:contentDescription="@string/descriptor"
+                android:onClick="despliegaInfo"
+                app:srcCompat="@drawable/nayarit" />
+
+            <ImageButton
+                android:id="@+id/id_NuevoLeon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/descriptor"
+                android:onClick="despliegaInfo"
+                app:srcCompat="@drawable/nuevoleon" />
+
+            <ImageButton
+                android:id="@+id/id_Oaxaca"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/purple_200"
+                android:contentDescription="@string/descriptor"
+                android:onClick="despliegaInfo"
+                app:srcCompat="@drawable/oaxaca" />
+
+            <ImageButton
+                android:id="@+id/id_Puebla"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/descriptor"
+                android:onClick="despliegaInfo"
+                app:srcCompat="@drawable/puebla" />
+
+            <ImageButton
+                android:id="@+id/id_Queretaro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/purple_200"
+                android:contentDescription="@string/descriptor"
+                android:onClick="despliegaInfo"
+                app:srcCompat="@drawable/queretaro" />
+
+            <ImageButton
+                android:id="@+id/id_QuintanaRoo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/descriptor"
+                android:onClick="despliegaInfo"
+                app:srcCompat="@drawable/quintanaroo" />
+
+            <ImageButton
+                android:id="@+id/id_SanLuisPotosi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/purple_200"
+                android:contentDescription="@string/descriptor"
+                android:onClick="despliegaInfo"
+                app:srcCompat="@drawable/sanluis" />
+
+            <ImageButton
+                android:id="@+id/id_Sinaloa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/descriptor"
+                android:onClick="despliegaInfo"
+                app:srcCompat="@drawable/sinaloa" />
+
+            <ImageButton
+                android:id="@+id/id_Sonora"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/purple_200"
+                android:contentDescription="@string/descriptor"
+                android:onClick="despliegaInfo"
+                app:srcCompat="@drawable/sonora" />
+
+            <ImageButton
+                android:id="@+id/id_Tabasco"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/descriptor"
+                android:onClick="despliegaInfo"
+                app:srcCompat="@drawable/tabasco" />
+
+            <ImageButton
+                android:id="@+id/id_Tamaulipas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/purple_200"
+                android:contentDescription="@string/descriptor"
+                android:onClick="despliegaInfo"
+                app:srcCompat="@drawable/tamaulipas" />
+
+            <ImageButton
+                android:id="@+id/id_Tlaxcala"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/descriptor"
+                android:onClick="despliegaInfo"
+                app:srcCompat="@drawable/tlaxcala" />
+
+            <ImageButton
+                android:id="@+id/id_Veracruz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/purple_200"
+                android:contentDescription="@string/descriptor"
+                android:onClick="despliegaInfo"
+                app:srcCompat="@drawable/veracruz" />
+
+            <ImageButton
+                android:id="@+id/id_Yucatan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/descriptor"
+                android:onClick="despliegaInfo"
+                app:srcCompat="@drawable/yucatan" />
+
+            <ImageButton
+                android:id="@+id/id_Zacatecas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/purple_200"
+                android:contentDescription="@string/descriptor"
+                android:onClick="despliegaInfo"
+                app:srcCompat="@drawable/zacatecas" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

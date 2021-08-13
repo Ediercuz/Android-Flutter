@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#93329e"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10sp"
+        android:rowCount="5"
+        android:columnCount="2"
+        >
+
+        <ImageButton
+            android:id="@+id/id_alaka"
+            android:layout_width="100sp"
+            android:layout_height="250sp"
+            android:layout_columnWeight="1"
+            android:layout_margin="5sp"
+            android:backgroundTint="?android:attr/panelBackground"
+            android:contentDescription="@string/descriptor"
+            android:onClick="despliegaInfo"
+            android:src="@drawable/alaka"
+            android:textSize="18sp">
+
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/id_charmander"
+            android:layout_width="100sp"
+            android:layout_height="250sp"
+            android:layout_columnWeight="1"
+            android:layout_margin="5sp"
+            android:backgroundTint="?android:attr/panelBackground"
+            android:contentDescription="@string/descriptor"
+            android:onClick="despliegaInfo"
+            android:src="@drawable/charmander"
+            android:textSize="18sp">
+
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/id_gallarde"
+            android:layout_width="100sp"
+            android:layout_height="250sp"
+            android:layout_columnWeight="1"
+            android:layout_margin="5sp"
+            android:backgroundTint="?android:attr/panelBackground"
+            android:contentDescription="@string/descriptor"
+            android:onClick="despliegaInfo"
+            android:src="@drawable/gallade"
+            android:textSize="18sp">
+
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/id_garch"
+            android:layout_width="100sp"
+            android:layout_height="250sp"
+            android:layout_columnWeight="1"
+            android:layout_margin="5sp"
+            android:backgroundTint="?android:attr/panelBackground"
+            android:contentDescription="@string/descriptor"
+            android:onClick="despliegaInfo"
+            android:src="@drawable/garch"
+            android:textSize="18sp">
+
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/id_gengar"
+            android:layout_width="100sp"
+            android:layout_height="250sp"
+            android:layout_columnWeight="1"
+            android:layout_margin="5sp"
+            android:backgroundTint="?android:attr/panelBackground"
+            android:contentDescription="@string/descriptor"
+            android:onClick="despliegaInfo"
+            android:src="@drawable/geng"
+            android:textSize="18sp">
+
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/id_lucario"
+            android:layout_width="100sp"
+            android:layout_height="250sp"
+            android:layout_columnWeight="1"
+            android:layout_margin="5sp"
+            android:backgroundTint="?android:attr/panelBackground"
+            android:contentDescription="@string/descriptor"
+            android:onClick="despliegaInfo"
+            android:src="@drawable/luca"
+            android:textSize="18sp">
+
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/id_magnezone"
+            android:layout_width="100sp"
+            android:layout_height="250sp"
+            android:layout_columnWeight="1"
+            android:layout_margin="5sp"
+            android:backgroundTint="?android:attr/panelBackground"
+            android:contentDescription="@string/descriptor"
+            android:onClick="despliegaInfo"
+            android:src="@drawable/magne"
+            android:textSize="18sp">
+
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/id_pikachu"
+            android:layout_width="100sp"
+            android:layout_height="250sp"
+            android:layout_columnWeight="1"
+            android:layout_margin="5sp"
+            android:backgroundTint="?android:attr/panelBackground"
+            android:contentDescription="@string/descriptor"
+            android:onClick="despliegaInfo"
+            android:src="@drawable/pika"
+            android:textSize="18sp">
+
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/id_togekiss"
+            android:layout_width="100sp"
+            android:layout_height="250sp"
+            android:layout_columnWeight="1"
+            android:layout_margin="5sp"
+            android:backgroundTint="?android:attr/panelBackground"
+            android:contentDescription="@string/descriptor"
+            android:onClick="despliegaInfo"
+            android:src="@drawable/toge"
+            android:textSize="18sp">
+
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/id_umbreon"
+            android:layout_width="100sp"
+            android:layout_height="250sp"
+            android:layout_columnWeight="1"
+            android:layout_margin="5sp"
+            android:backgroundTint="?android:attr/panelBackground"
+            android:contentDescription="@string/descriptor"
+            android:onClick="despliegaInfo"
+            android:src="@drawable/umbre"
+            android:textSize="18sp">
+
+        </ImageButton>
+
+        <Button
+            android:id="@+id/id_salir"
+            android:layout_columnWeight="1"
+            android:layout_height="100sp"
+            android:text="Salir"
+            android:textSize="18sp"
+            android:onClick=""
+            android:layout_margin="5sp"
+            tools:ignore="OnClick"/>
+
+        <Button
+            android:id="@+id/id_referencias"
+            android:layout_columnWeight="1"
+            android:layout_height="100sp"
+            android:text="Referencias"
+            android:onClick="despliegaInfo"
+            android:layout_margin="5sp"
+            android:layout_marginBottom="5sp"
+            android:textSize="18sp"
+             />
+
+
+
+
+    </GridLayout>
+
+
+</ScrollView>
